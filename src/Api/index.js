@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const apiClient = axios.create({
-  baseURL: "https://mongo-db-crud-flame.vercel.app",
+  baseURL: "https://backend-curd-blond.vercel.app/",
   timeout: 2000,
   headers: {
     "Content-Type": "application/json",
